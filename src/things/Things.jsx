@@ -8,6 +8,7 @@ export default function Things({photo,saxeli,agwera,fasi}) {
   
   return (
     <>
+
         <div className="card">
         <img src={photo} alt="" />
         <div className="card-content">
@@ -15,8 +16,8 @@ export default function Things({photo,saxeli,agwera,fasi}) {
           <p className="card-description">{agwera}</p>
           <div className="card-footer">
             <h3 className="card-price">{fasi}$</h3>
-            <button className="buy-button">
-              <span onClick={go}>see</span>
+            <button className="buy-button" onClick={go}>
+              <span>see</span>
               <div className="liquid"></div>
             </button>
           </div>
