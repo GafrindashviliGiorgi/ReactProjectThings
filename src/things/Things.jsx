@@ -2,13 +2,12 @@ import React from 'react'
 
 export default function Things({photo,saxeli,agwera,fasi}) {
 
-
+  function go() {
+    window.location.href = "https://projects-firs.vercel.app/"
+  }
   
   return (
     <>
-    <div>
-
-    </div>
         <div className="card">
         <img src={photo} alt="" />
         <div className="card-content">
@@ -17,7 +16,7 @@ export default function Things({photo,saxeli,agwera,fasi}) {
           <div className="card-footer">
             <h3 className="card-price">{fasi}$</h3>
             <button className="buy-button">
-              <span>see</span>
+              <span onClick={go}>see</span>
               <div className="liquid"></div>
             </button>
           </div>

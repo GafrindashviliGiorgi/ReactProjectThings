@@ -84,7 +84,6 @@
   margin: 0;
 }
 
-/* Advanced Button Styling with Animation */
 .buy-button {
   position: relative;
   width: 150px;
@@ -115,7 +114,6 @@
   letter-spacing: 1px;
 }
 
-/* Wave effect liquid animation */
 .buy-button .liquid {
   position: absolute;
   top: -80px;
@@ -177,7 +175,6 @@
   }
 }
 
-/* Gradient flow animation */
 @keyframes gradientBG {
   0% {
     background-position: 0% 50%;
