@@ -18,7 +18,7 @@ function App() {
   }
 
   function back2() {
-    window.location.href = ""
+    window.location.href = "https://project3-mu-green.vercel.app/"
   }
 
   return (
